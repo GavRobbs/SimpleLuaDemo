@@ -1,0 +1,5 @@
+local gavin = Person.new("Gavin R", 32)
+gavin:print_demographics()
+print("I have gotten older, let me re-introduce myself.")
+gavin:increase_age()
+gavin:print_demographics()
